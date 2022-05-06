@@ -9,6 +9,8 @@
     -     > kalimat="Saya makan"
 
 - Mencari `length` string di `bash` :<br>
+  Terdapat 2 cara untuk menentukan `length` array di `bash` : <br>
+
     **Cara 1 :**
     -     > length_string=`expr length "$word"`
     **Example :**
@@ -34,7 +36,7 @@
           output: U
 
 - Mengembalikan karakter terakhir dari string di `bash` :<br>
-      Note : `index` dimulai dari -1, -2, dst
+      **Note** : `index` dimulai dari -1, -2, dst
     -     > ${word:(index)}
 
     **Example :**
@@ -50,7 +52,7 @@
 
 **Contoh manipulasi string di bash**
 
-- Mencari kata dengan panjang tertentu :<br>
+- Mencari kata dengan `panjang tertentu` :<br>
 Format : `${string:position:length}`
 
     -     > word="bash"
@@ -66,6 +68,8 @@ Format : `${string:position:length}`
           
 
 ## **Function in Bash**
+
+**Note** : parameter di dalam function `bash` dapat dipanggil dengan menggunakan $1, $2 dst. 
 
 - Format function di `bash` :
 
