@@ -69,7 +69,7 @@ Format : `${string:position:length}`
 
 ## **Function in Bash**
 
-**Note** : parameter di dalam function `bash` dapat dipanggil dengan menggunakan $1, $2 dst. 
+**Note** : parameter di dalam function `bash` dapat dipanggil dengan menggunakan `$1`, `$2` dst. 
 
 - Format function di `bash` :
 
